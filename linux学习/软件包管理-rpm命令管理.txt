@@ -1,0 +1,7 @@
+alias vi = "vim" 给别名
+删除
+unalias
+
+bash常用快捷键
+CTRL + C (强制退出 ) +L（清屏）+U（撤回）+Y（粘贴）+R (搜索) +D（退出终端） 
+        

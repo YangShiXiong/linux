@@ -1,0 +1,34 @@
+mkdir (make directories) （规划好目录，便于查找）
+mkdir -p /tmp/japan/buduo(递归创建，在Japan还没创建时，创建目录和他的子目录）
+mkdir /tmp/japan/longze /tmp/japan/cangjing(同时创建多个目录)
+ls  /tmp/japan 查看目录 
+
+
+cd(change directories)进入某一目录
+cd  /tmp/japan/longze
+cd .. 上一级目录
+cd . 当前目录
+pwd（print worked directories） 打印当前目录
+
+rmdir (移除目录，目录必须为空)
+
+cp(copy)
+
+-r 复制目录
+-p 保存文件属性
+
+cp  -r /tmp/japan/longze /root
+cp  -r /tmp/japan/longze /root/ysx18+ 
+
+mv 剪切和更名
+
+mv /tmp/japan/cangjing /root
+
+rm 删除
+
+rm +目录名
+-f 强制删除
+rm -f 
+-r 删除目录
+
+rm -rf 强制删除目录

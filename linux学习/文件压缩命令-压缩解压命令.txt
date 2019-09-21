@@ -1,0 +1,25 @@
+.gz （压缩文件）
+
+gzip 压缩文件
+
+gunzip 加压
+
+tar(压缩)
+
+v添加详细信息
+z 压缩zip
+c 打包
+f 文件
+
+tar -zcf 压缩名 文件名
+
+
+tar  -zxf 压缩名
+
+zip -r 目录
+zip 文件名
+
+.tar.bz2
+
+tar -cjf 压缩名 文件名
+tar -xjf 压缩名

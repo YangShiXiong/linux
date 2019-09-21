@@ -1,0 +1,3 @@
+shutdown -h (halt 关机) 
+shutdown -r(reboot 开机)
+logout 退出登录命令 

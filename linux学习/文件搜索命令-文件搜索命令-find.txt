@@ -1,0 +1,33 @@
+find [范围] [条件 ]
+
+name 名称（区分大小写）
+-iname （不区分大小写）
+
+find /etc -name init(查找etc下的init)
+
+find /etc -name *init*（模糊查询）
+
+-size 指定大小 +表示大于，-小于。
+1数据块等于512字节=0.5k
+100mb = 100*1024 kb=100*1024*2 = 204800
+-a = and
+-o = or
+
+-type 按文件类型查找 -f,-d,-l
+
+-inum 根据节点数
+-amin
+-user
+-group
+-exec 操作 {} \;
+
+locate （搜索）（不能找到临时存放文件或目录，如tmp）
+locate + 文件名
+
+which （查找绝对路径）root可用
+whereis （查找路径并显示相关帮助信息）
+
+grep 文件名 +路径
+
+-i不区分大小写
+-v 去调指定字符串

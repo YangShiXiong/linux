@@ -1,0 +1,38 @@
+vi + 文件
+a光标后添加
+A行尾添加
+
+i光标前添加
+I行首添加
+
+o上一行
+O下一行
+
+
+：wq退出
+
+删除 X
+123 - 234 d(删除123到234行)
+复制 yy
+n行 nyy
+
+小写p 下一行粘贴
+大写P 上一行粘贴
+
+dd 剪切
+ndd 剪切几行
+
+R 替换光标位置
+u 撤消
+
+：r + 文件名 （导入文件到光标位置）
+：r + ！命令 （可直接导入命令到光标位置）
+：map ctrl vp I#<esc>创建快捷键
+
+ab mymail  ysx@163.com
+
+
+vi /root/vimrc 写自己的一些配置
+比如
+set nu《进入后会自动显示行号》
+ab mymail yangshixiong@163.com《写mymail会自动写成yangshixiong@163.com》

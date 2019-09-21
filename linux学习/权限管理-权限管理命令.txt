@@ -1,0 +1,27 @@
+chmod 
+u 所属者
+g 所属组
+o 所属组之外 
+a 所有人
+
+r 读 4
+w 写 2
+x 执行 1
++ 加rwx
+- 减rwx
+= 等于rwx
+-R 递归修改权限
+
+chmod u+r 目录名
+
+删除文件要对其目录有写权限
+
+useradd+所有者
+chown 修改所有者的名称
+chown + 用户名 +目录或文件
+
+groupadd +所有组
+chgrp 修改所属组
+chgrp + 组名+目录或文件
+
+umask -S 显示文件的缺省文件

@@ -1,0 +1,12 @@
+write + 用户名
+wall + message给所有用户发信息
+ping
+ifconfie 查看网络信息
+mail + 用户名 ctrl+D退出
+last 查看登录信息
+lastlog 最后登录信息 -u 查uid
+traceroute 查看路劲
+netstat 查看网络相关信息
+netstat -an链接端口 -rn
+setup 配置网络信息
+mount 挂载命令

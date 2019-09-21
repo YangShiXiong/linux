@@ -1,0 +1,18 @@
+touch 创建一个空文件
+
+touch “program files”创建带空格的目录，要双引号
+
+cat 可以浏览文件内容
+-n 行号
+
+more 分页显示内容（less）但是less可以用pakge up向上翻，/查找
+
+空格或f 翻页
+（enter） 换行
+（q或Q）退出
+head -n查看一个目录前几行
+tail -n 查看一个目录后几行 -f 动态显示
+
+ln 链接
+ln -s 软链接 ln -s /etc/issue /tmp/issue.soft
+ln 硬链接ln /etc/issue /tmp/issue.hard
